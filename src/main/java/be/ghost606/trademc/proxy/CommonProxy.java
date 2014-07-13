@@ -5,6 +5,8 @@ package be.ghost606.trademc.proxy;
  */
 public abstract class CommonProxy implements IProxy {
 
+    public void registerEventHandlers()
+    {
 
-
+    }
 }

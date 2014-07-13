@@ -1,5 +1,6 @@
 package be.ghost606.trademc;
 
+import be.ghost606.trademc.client.handler.KeyInputEventHandler;
 import be.ghost606.trademc.handler.ConfigurationHandler;
 import be.ghost606.trademc.handler.TradeCommandHandler;
 import be.ghost606.trademc.reference.Reference;
@@ -30,6 +31,10 @@ public class TradeMC {
     public void preInit(FMLPreInitializationEvent event) {
         ConfigurationHandler.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
+
+        proxy.registerKeyBindings();
+        FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
+
         LogHelper.info("Pre Initialization Complete!");
     }
 
