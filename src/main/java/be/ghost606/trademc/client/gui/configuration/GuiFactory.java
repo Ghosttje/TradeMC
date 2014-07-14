@@ -1,5 +1,6 @@
-package be.ghost606.trademc.client.gui;
+package be.ghost606.trademc.client.gui.configuration;
 
+import be.ghost606.trademc.client.gui.configuration.ModGuiConfig;
 import cpw.mods.fml.client.IModGuiFactory;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiScreen;

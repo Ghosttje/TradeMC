@@ -1,4 +1,4 @@
-package be.ghost606.trademc.client.gui;
+package be.ghost606.trademc.client.gui.configuration;
 
 import be.ghost606.trademc.handler.ConfigurationHandler;
 import be.ghost606.trademc.reference.Reference;
