@@ -2,10 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0003cdf-a3b3-4144-a566-24f016b64265" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/handler/GuiHandler.java" />
+      <change type="DELETED" beforePath="D:\Git\TradeMC\src\main\java\be\ghost606\trademc\reference\Names.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/TestWorld/playerdata/040a63f0-e153-3f49-84a8-b60ca564e69f.dat" afterPath="$PROJECT_DIR$/eclipse/saves/TestWorld/playerdata/040a63f0-e153-3f49-84a8-b60ca564e69f.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/TestWorld/level.dat" afterPath="$PROJECT_DIR$/eclipse/saves/TestWorld/level.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/TestWorld/level.dat_old" afterPath="$PROJECT_DIR$/eclipse/saves/TestWorld/level.dat_old" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/TestWorld/region/r.0.-1.mca" afterPath="$PROJECT_DIR$/eclipse/saves/TestWorld/region/r.0.-1.mca" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/TestWorld/DIM-1/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/TestWorld/DIM-1/data/villages.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/TestWorld/DIM1/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/TestWorld/DIM1/data/villages.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/TestWorld/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/TestWorld/data/villages.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/TestWorld/stats/040a63f0-e153-3f49-84a8-b60ca564e69f.json" afterPath="$PROJECT_DIR$/eclipse/saves/TestWorld/stats/040a63f0-e153-3f49-84a8-b60ca564e69f.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/handler/ConfigurationHandler.java" afterPath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/handler/ConfigurationHandler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/GuiTrade.java" afterPath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/GuiTrade.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/reference/Names.java" afterPath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/reference/Names.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/reference/Reference.java" afterPath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/reference/Reference.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/handler/TradeCommandHandler.java" afterPath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/handler/TradeCommandHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/config/TradeMC.cfg" afterPath="$PROJECT_DIR$/eclipse/config/TradeMC.cfg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradeMC.iws" afterPath="$PROJECT_DIR$/TradeMC.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/TradeMC.java" afterPath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/TradeMC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/TestWorld/session.lock" afterPath="$PROJECT_DIR$/eclipse/saves/TestWorld/session.lock" />
     </list>
     <ignored path="TradeMC.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,8 +81,8 @@
       <file leaf-file-name="GuiTrade.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/GuiTrade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
-              <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1003">
+              <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -77,13 +91,50 @@
       <file leaf-file-name="TradeCommandHandler.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/handler/TradeCommandHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.28716215" vertical-offset="0" max-vertical-offset="629">
-              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.5456081" vertical-offset="0" max-vertical-offset="663">
+              <caret line="28" column="59" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="59" />
               <folding>
-                <element signature="e#607#608#0" expanded="true" />
-                <element signature="e#658#659#0" expanded="true" />
-                <element signature="e#736#737#0" expanded="true" />
-                <element signature="e#787#788#0" expanded="true" />
+                <element signature="e#647#648#0" expanded="true" />
+                <element signature="e#702#703#0" expanded="true" />
+                <element signature="e#780#781#0" expanded="true" />
+                <element signature="e#835#836#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConfigurationHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/handler/ConfigurationHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TradeMC.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/TradeMC.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="292" max-vertical-offset="884">
+              <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+              <folding>
+                <element signature="e#1912#1913#0" expanded="true" />
+                <element signature="e#1975#1976#0" expanded="true" />
+                <element signature="e#2065#2066#0" expanded="true" />
+                <element signature="e#2135#2136#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GuiHandler.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/handler/GuiHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+              <caret line="14" column="102" selection-start-line="14" selection-start-column="102" selection-end-line="14" selection-end-column="102" />
+              <folding>
+                <element signature="e#501#502#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -92,18 +143,8 @@
       <file leaf-file-name="Reference.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/reference/Reference.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-              <caret line="12" column="95" selection-start-line="12" selection-start-column="95" selection-end-line="12" selection-end-column="95" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Names.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/reference/Names.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-              <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+              <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -699,7 +740,6 @@
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/proxy/Common.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/configuration/ConfigurationHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/GuiFactory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/reference/Reference.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/ModGuiConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/GuiFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/utility/LogHelper.java" />
@@ -717,8 +757,6 @@
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/proxy/IProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/proxy/ClientProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/reference/CommandReference.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/TradeMC.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/handler/ConfigurationHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/configuration/ModGuiConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/configuration/GuiFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/configuration/GuiTradeMCContainer.java" />
@@ -727,8 +765,12 @@
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/configuration/GuiTradeMCScreen.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/GuiTradeMCScreen.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/GuiTradeMCContainer.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/GuiTrade.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/TradeMC.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/reference/Names.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/reference/Reference.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/handler/ConfigurationHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/handler/GuiHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/GuiTrade.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/handler/TradeCommandHandler.java" />
       </list>
     </option>
@@ -838,100 +880,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TradeMC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TradeMC" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trademc" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="textures" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TradeMC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TradeMC" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trademc" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="textures" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gui" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TradeMC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TradeMC" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trademc" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -956,36 +904,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="trademc" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TradeMC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TradeMC" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="trademc" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="reference" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1405,14 +1323,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraft/client/gui/inventory/GuiContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1207" max-vertical-offset="12954">
-          <caret line="71" column="28" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraft/inventory/Container.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="9231" max-vertical-offset="12614">
@@ -1654,20 +1564,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/handler/ConfigurationHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8327703" vertical-offset="0" max-vertical-offset="765">
-          <caret line="38" column="154" selection-start-line="38" selection-start-column="154" selection-end-line="38" selection-end-column="154" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/TradeMC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="16" max-vertical-offset="935">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/configuration/ModGuiConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18952063" vertical-offset="0" max-vertical-offset="897">
@@ -1725,14 +1621,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/GuiTradeMCContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/reference/Textures.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
@@ -1743,37 +1631,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/reference/Reference.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <caret line="12" column="95" selection-start-line="12" selection-start-column="95" selection-end-line="12" selection-end-column="95" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="680">
+          <caret line="19" column="34" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/reference/Names.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/handler/ConfigurationHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-          <caret line="26" column="42" selection-start-line="26" selection-start-column="42" selection-end-line="26" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/handler/GuiHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
+          <caret line="14" column="102" selection-start-line="14" selection-start-column="102" selection-end-line="14" selection-end-column="102" />
+          <folding>
+            <element signature="e#501#502#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/GuiTradeMCContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/TradeMC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="884">
+          <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+          <folding>
+            <element signature="e#1912#1913#0" expanded="true" />
+            <element signature="e#1975#1976#0" expanded="true" />
+            <element signature="e#2065#2066#0" expanded="true" />
+            <element signature="e#2135#2136#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/GuiTrade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1003">
+          <caret line="41" column="24" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/handler/TradeCommandHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28716215" vertical-offset="0" max-vertical-offset="629">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.5456081" vertical-offset="0" max-vertical-offset="663">
+          <caret line="28" column="59" selection-start-line="28" selection-start-column="46" selection-end-line="28" selection-end-column="59" />
           <folding>
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#736#737#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
+            <element signature="e#647#648#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#835#836#0" expanded="true" />
           </folding>
         </state>
       </provider>

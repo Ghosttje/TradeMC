@@ -1,11 +1,9 @@
 package be.ghost606.trademc.handler;
 
 import be.ghost606.trademc.client.settings.KeyBindings;
-import be.ghost606.trademc.reference.Names;
 import be.ghost606.trademc.reference.Reference;
 import cpw.mods.fml.client.event.ConfigChangedEvent;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
-import net.minecraft.client.settings.KeyBinding;
 import net.minecraftforge.common.config.Configuration;
 import org.lwjgl.input.Keyboard;
 
@@ -16,7 +14,7 @@ import java.io.File;
  */
 public class ConfigurationHandler {
 
-    private static final String CATEGORY_KEYBIND = "Key bindings";
+
     public static Configuration configuration;
 
     public static void init(File configFile) {
@@ -36,9 +34,9 @@ public class ConfigurationHandler {
 
     private static void loadConfiguration() {
 
-        configuration.addCustomCategoryComment(CATEGORY_KEYBIND, "Key bindings for TradeMC. See http://www.minecraftwiki.net/wiki/Key_codes for key codes.");
+        configuration.addCustomCategoryComment(Reference.Configuration.CATEGORY_KEYBINDING_NAME, Reference.Configuration.CATEGORY_KEYBINDING_COMMENT);
 
-        KeyBindings.tradeKey = new KeyBinding("key.trade", configuration.get(CATEGORY_KEYBIND, Names.KeyBindings.TRADE, Keyboard.KEY_Y).getInt(Keyboard.KEY_Y), Names.KeyBindings.CATEGORY);
+        KeyBindings.tradeKey = new net.minecraft.client.settings.KeyBinding(Reference.KeyBinding.TRADE, configuration.get(Reference.Configuration.CATEGORY_KEYBINDING_NAME, Reference.KeyBinding.TRADE, Keyboard.KEY_Y).getInt(Keyboard.KEY_Y), Reference.KeyBinding.CATEGORY);
         //acceptKey = new KeyBinding("key.accept", Keyboard.KEY_RSHIFT + Keyboard.KEY_)
 
         if (configuration.hasChanged()) {

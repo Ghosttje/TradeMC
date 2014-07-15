@@ -2,6 +2,7 @@ package be.ghost606.trademc;
 
 import be.ghost606.trademc.client.handler.KeyInputEventHandler;
 import be.ghost606.trademc.handler.ConfigurationHandler;
+import be.ghost606.trademc.handler.GuiHandler;
 import be.ghost606.trademc.handler.TradeCommandHandler;
 import be.ghost606.trademc.reference.Reference;
 import be.ghost606.trademc.proxy.IProxy;
@@ -13,6 +14,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.event.FMLServerStartingEvent;
+import cpw.mods.fml.common.network.NetworkRegistry;
 
 /**
  * Created by Kevin on 12/07/2014.
@@ -40,6 +42,8 @@ public class TradeMC {
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
+        NetworkRegistry.INSTANCE.registerGuiHandler(instance, new GuiHandler());
+
         LogHelper.info("Initialization Complete!");
     }
 

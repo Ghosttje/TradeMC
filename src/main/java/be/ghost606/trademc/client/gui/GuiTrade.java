@@ -1,6 +1,7 @@
 package be.ghost606.trademc.client.gui;
 
 import be.ghost606.trademc.reference.Textures;
+import be.ghost606.trademc.utility.LogHelper;
 import cpw.mods.fml.client.config.GuiSlider;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiScreen;
@@ -21,13 +22,19 @@ public class GuiTrade extends GuiScreen {
     protected int guiLeft;
     protected int guiTop;
 
+    private InventoryPlayer inventoryPlayer;
+
     private GuiSlider myTradeSlider;
     private GuiSlider otherPlayerSlider;
 
     public GuiTrade(InventoryPlayer inventoryPlayer) {
         super();
+        this.inventoryPlayer = inventoryPlayer;
+
         //myTradeSlider = new GuiSlider();
         //otherPlayerSlider = new GuiSlider();
+
+        LogHelper.info("Gui instance made!");
     }
 
     @Override
@@ -36,6 +43,8 @@ public class GuiTrade extends GuiScreen {
 
         this.guiLeft = (this.width - this.xSize) / 2;
         this.guiTop = (this.height - this.ySize) / 2;
+
+        LogHelper.info("Gui init!");
     }
 
     @Override
@@ -46,5 +55,8 @@ public class GuiTrade extends GuiScreen {
 
         Minecraft.getMinecraft().renderEngine.bindTexture(Textures.GUI_TRADE);
         drawTexturedModalRect(guiLeft, guiTop, 0, 0, xSize, ySize);
+
+        LogHelper.info("Gui drawing!");
+        LogHelper.info("(GuiLeft: " + guiLeft + ", GuiTop: " + guiTop + "), (XSize: " + xSize + ", YSize: " + ySize + ")");
     }
 }
