@@ -57,6 +57,5 @@ public class GuiTrade extends GuiScreen {
         drawTexturedModalRect(guiLeft, guiTop, 0, 0, xSize, ySize);
 
         LogHelper.info("Gui drawing!");
-        LogHelper.info("(GuiLeft: " + guiLeft + ", GuiTop: " + guiTop + "), (XSize: " + xSize + ", YSize: " + ySize + ")");
     }
 }

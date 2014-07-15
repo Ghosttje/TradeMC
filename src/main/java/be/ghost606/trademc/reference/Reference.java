@@ -17,7 +17,7 @@ public class Reference {
         public static final String CATEGORY_KEYBINDING_COMMENT = "Key bindings for TradeMC. See http://www.minecraftwiki.net/wiki/Key_codes for key codes.";
     }
 
-    public static final class KeyBinding {
+    public static final class Keys {
         public static final String CATEGORY = "key.categories.trademc";
         public static final String TRADE = "key.trade";
     }

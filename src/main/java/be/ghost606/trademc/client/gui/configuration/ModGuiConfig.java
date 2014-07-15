@@ -1,6 +1,6 @@
 package be.ghost606.trademc.client.gui.configuration;
 
-import be.ghost606.trademc.handler.ConfigurationHandler;
+import be.ghost606.trademc.client.configuration.ClientConfiguration;
 import be.ghost606.trademc.reference.Reference;
 import cpw.mods.fml.client.config.GuiConfig;
 import cpw.mods.fml.client.config.IConfigElement;
@@ -15,7 +15,7 @@ import java.util.List;
  */
 public class ModGuiConfig extends GuiConfig {
     public ModGuiConfig(GuiScreen guiScreen) {
-        super(guiScreen, new ConfigElement(ConfigurationHandler.configuration.getCategory(Configuration.CATEGORY_GENERAL)).getChildElements(),
-                Reference.MOD_ID, false, false, GuiConfig.getAbridgedConfigPath(ConfigurationHandler.configuration.toString()));
+        super(guiScreen, new ConfigElement(ClientConfiguration.configuration.getCategory(Configuration.CATEGORY_GENERAL)).getChildElements(),
+                Reference.MOD_ID, false, false, GuiConfig.getAbridgedConfigPath(ClientConfiguration.configuration.toString()));
     }
 }
