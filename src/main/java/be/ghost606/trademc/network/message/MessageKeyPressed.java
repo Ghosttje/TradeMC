@@ -2,6 +2,7 @@ package be.ghost606.trademc.network.message;
 
 import be.ghost606.trademc.client.gui.GuiTrade;
 import be.ghost606.trademc.reference.Key;
+import be.ghost606.trademc.utility.LogHelper;
 import cpw.mods.fml.client.FMLClientHandler;
 import cpw.mods.fml.common.network.simpleimpl.IMessage;
 import cpw.mods.fml.common.network.simpleimpl.IMessageHandler;
@@ -24,6 +25,7 @@ public class MessageKeyPressed implements IMessage, IMessageHandler<MessageKeyPr
     public MessageKeyPressed(Key key) {
         if (key == Key.TRADE) {
             this.keyPressed = (byte) key.TRADE.ordinal();
+
         } else {
             this.keyPressed = (byte) key.UNKNOWN.ordinal();
         }
@@ -41,12 +43,14 @@ public class MessageKeyPressed implements IMessage, IMessageHandler<MessageKeyPr
 
     @Override
     public IMessage onMessage(MessageKeyPressed message, MessageContext ctx) {
+        LogHelper.info("Keypressed!");
         EntityPlayer entityPlayer = ctx.getServerHandler().playerEntity;
 
         if (entityPlayer != null)
         {
             if (message.keyPressed == Key.TRADE.ordinal())
             {
+                LogHelper.info("Starting GUI!");
                 FMLClientHandler.instance().displayGuiScreen(Minecraft.getMinecraft().thePlayer, new GuiTrade(entityPlayer.inventory));
             }
         }

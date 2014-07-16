@@ -1,0 +1,21 @@
+[
+{
+  "modid": "TradeMC",
+  "name": "TradeMC",
+  "description": "A mod for trading purposes.",
+  "version": "1.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "ghost606"
+  ],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]

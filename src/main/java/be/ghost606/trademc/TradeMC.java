@@ -2,6 +2,7 @@ package be.ghost606.trademc;
 
 import be.ghost606.trademc.handler.GuiHandler;
 import be.ghost606.trademc.handler.TradeCommandHandler;
+import be.ghost606.trademc.network.PacketHandler;
 import be.ghost606.trademc.reference.Reference;
 import be.ghost606.trademc.proxy.IProxy;
 import be.ghost606.trademc.utility.LogHelper;
@@ -29,6 +30,9 @@ public class TradeMC {
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         proxy.initClientConfiguration(event.getSuggestedConfigurationFile());
+
+        PacketHandler.init();
+
         proxy.registerKeyBindings();
 
         LogHelper.info("Pre Initialization Complete!");
@@ -37,6 +41,8 @@ public class TradeMC {
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
         NetworkRegistry.INSTANCE.registerGuiHandler(instance, new GuiHandler());
+
+        proxy.registerEventHandlers();
 
         LogHelper.info("Initialization Complete!");
     }

@@ -4,6 +4,7 @@ import be.ghost606.trademc.client.settings.KeyBindings;
 import be.ghost606.trademc.network.PacketHandler;
 import be.ghost606.trademc.network.message.MessageKeyPressed;
 import be.ghost606.trademc.reference.Key;
+import be.ghost606.trademc.utility.LogHelper;
 import cpw.mods.fml.client.FMLClientHandler;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.gameevent.InputEvent;
