@@ -1,6 +1,8 @@
 package be.ghost606.trademc.handler;
 
 import be.ghost606.trademc.client.gui.GuiTrade;
+import be.ghost606.trademc.inventory.ContainerTrade;
+import be.ghost606.trademc.reference.GuiId;
 import be.ghost606.trademc.reference.Reference;
 import cpw.mods.fml.common.network.IGuiHandler;
 import net.minecraft.entity.player.EntityPlayer;
@@ -12,13 +14,17 @@ import net.minecraft.world.World;
 public class GuiHandler implements IGuiHandler {
 
     @Override
-    public Object getServerGuiElement(int ID, EntityPlayer player, World world, int x, int y, int z) {
+    public Object getServerGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
+        if (id == GuiId.TRADE.ordinal()) {
+            return new ContainerTrade(player.inventory);
+        }
+
         return null;
     }
 
     @Override
     public Object getClientGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
-        if (id == Reference.GuiId.TRADE) {
+        if (id == GuiId.TRADE.ordinal()) {
             return new GuiTrade(player.inventory);
         }
 

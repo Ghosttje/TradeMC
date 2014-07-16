@@ -26,9 +26,4 @@ public class Reference {
         public static final String TRADE_COMMAND = "trade";
         public static final String TRADE_COMMENT = "Start a trading with another player. Usage: /trade <playername>.";
     }
-
-    public static final class GuiId {
-        public static final int TRADE = 0;
-    }
-
 }
