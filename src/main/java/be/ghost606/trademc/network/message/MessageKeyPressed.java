@@ -1,7 +1,10 @@
 package be.ghost606.trademc.network.message;
 
+import be.ghost606.trademc.TradeMC;
 import be.ghost606.trademc.client.gui.GuiTrade;
+import be.ghost606.trademc.reference.GuiId;
 import be.ghost606.trademc.reference.Key;
+import be.ghost606.trademc.reference.Reference;
 import be.ghost606.trademc.utility.LogHelper;
 import cpw.mods.fml.client.FMLClientHandler;
 import cpw.mods.fml.common.network.simpleimpl.IMessage;
@@ -51,7 +54,7 @@ public class MessageKeyPressed implements IMessage, IMessageHandler<MessageKeyPr
             if (message.keyPressed == Key.TRADE.ordinal())
             {
                 LogHelper.info("Starting GUI!");
-                FMLClientHandler.instance().displayGuiScreen(Minecraft.getMinecraft().thePlayer, new GuiTrade(entityPlayer.inventory));
+                entityPlayer.openGui(TradeMC.instance, GuiId.TRADE.ordinal(), Minecraft.getMinecraft().theWorld, 0, 0, 0);
             }
         }
 

@@ -2,6 +2,7 @@ package be.ghost606.trademc.handler;
 
 import be.ghost606.trademc.TradeMC;
 import be.ghost606.trademc.client.gui.GuiTrade;
+import be.ghost606.trademc.reference.GuiId;
 import be.ghost606.trademc.reference.Reference;
 import be.ghost606.trademc.utility.LogHelper;
 import cpw.mods.fml.client.FMLClientHandler;
@@ -36,7 +37,7 @@ public class TradeCommandHandler extends CommandBase {
                 LogHelper.info(args[i]);
             }
 
-            FMLClientHandler.instance().displayGuiScreen(Minecraft.getMinecraft().thePlayer, new GuiTrade(entityPlayer.inventory));
+            entityPlayer.openGui(TradeMC.instance, GuiId.TRADE.ordinal(), Minecraft.getMinecraft().theWorld, 0, 0, 0);
         }
     }
 }
