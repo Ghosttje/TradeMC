@@ -1,6 +1,6 @@
 package be.ghost606.trademc.proxy;
 
-import be.ghost606.trademc.client.configuration.ClientConfiguration;
+import be.ghost606.trademc.handler.ConfigurationHandler;
 import be.ghost606.trademc.client.handler.KeyInputEventHandler;
 import be.ghost606.trademc.client.settings.KeyBindings;
 import be.ghost606.trademc.utility.LogHelper;
@@ -17,7 +17,6 @@ public class ClientProxy extends CommonProxy {
     public void registerEventHandlers() {
         super.registerEventHandlers();
         FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
-        FMLCommonHandler.instance().bus().register(new ClientConfiguration());
         LogHelper.info("Registered events!");
     }
 
@@ -27,8 +26,8 @@ public class ClientProxy extends CommonProxy {
     }
 
     @Override
-    public void initClientConfiguration(File configFile)
+    public void initConfiguration(File configFile)
     {
-        ClientConfiguration.init(configFile);
+        ConfigurationHandler.init(configFile, true);
     }
 }

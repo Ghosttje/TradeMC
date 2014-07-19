@@ -7,7 +7,7 @@ import java.io.File;
  */
 public interface IProxy {
 
-    public abstract void initClientConfiguration(File configFile);
+    public abstract void initConfiguration(File configFile);
 
     public abstract void registerEventHandlers();
 

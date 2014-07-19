@@ -1,5 +1,7 @@
 package be.ghost606.trademc.proxy;
 
+import be.ghost606.trademc.handler.ConfigurationHandler;
+
 import java.io.File;
 
 /**
@@ -8,8 +10,8 @@ import java.io.File;
 public class ServerProxy extends CommonProxy {
 
     @Override
-    public void initClientConfiguration(File configFile) {
-
+    public void initConfiguration(File configFile) {
+        ConfigurationHandler.init(configFile, false);
     }
 
     @Override

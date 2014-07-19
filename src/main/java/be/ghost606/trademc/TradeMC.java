@@ -29,7 +29,7 @@ public class TradeMC {
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
-        proxy.initClientConfiguration(event.getSuggestedConfigurationFile());
+        proxy.initConfiguration(event.getSuggestedConfigurationFile());
 
         PacketHandler.init();
 
