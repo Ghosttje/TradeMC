@@ -1,5 +1,6 @@
 package be.ghost606.trademc.inventory;
 
+import be.ghost606.trademc.utility.LogHelper;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.inventory.IInventory;
 import net.minecraft.item.ItemStack;
@@ -29,6 +30,7 @@ public class InventoryTrade implements IInventory {
 
     @Override
     public ItemStack decrStackSize(int indexSource, int indexTarget) {
+        LogHelper.info(indexSource + ", " + indexTarget);
         if (this.stackList[indexSource] != null)
         {
             ItemStack itemstack;
@@ -58,6 +60,7 @@ public class InventoryTrade implements IInventory {
 
     @Override
     public ItemStack getStackInSlotOnClosing(int index) {
+        LogHelper.info(index + "Closing");
         if (this.stackList[index] != null)
         {
             ItemStack itemstack = this.stackList[index];
@@ -72,6 +75,7 @@ public class InventoryTrade implements IInventory {
 
     @Override
     public void setInventorySlotContents(int index, ItemStack itemStack) {
+        LogHelper.info(index + "set");
         this.stackList[index] = itemStack;
     }
 

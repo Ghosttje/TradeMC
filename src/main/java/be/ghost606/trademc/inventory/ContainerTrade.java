@@ -12,19 +12,28 @@ import net.minecraft.item.ItemStack;
  */
 public class ContainerTrade extends Container {
 
-    private final int PLAYER_INVENTORY_ROWS = 3;
-    private final int PLAYER_INVENTORY_COLUMNS = 9;
+    private static final int TRADE_INVENTORY_ROWS = 3;
+    private static final int TRADE_INVENTORY_COLUMNS = 9;
+    private static final int PLAYER_INVENTORY_ROWS = 3;
+    private static final int PLAYER_INVENTORY_COLUMNS = 9;
 
-    public ContainerTrade(InventoryPlayer inventoryPlayer) {
-        for (int i = 0; i < PLAYER_INVENTORY_ROWS; i++) {
-            for (int j = 0; j < PLAYER_INVENTORY_COLUMNS; j++) {
-                addSlotToContainer(new Slot(inventoryPlayer, j + i * 9 + 9,
-                        48 + j * 18, 106 + i * 18));
+    public ContainerTrade(EntityPlayer entityPlayer, InventoryTrade inventoryTrade) {
+
+        //Inventory Trade
+        for (int i = 0; i < TRADE_INVENTORY_ROWS; i++) {
+            for (int j = 0; j < TRADE_INVENTORY_COLUMNS; j++) {
+                addSlotToContainer(new Slot(inventoryTrade, j + i * 9, 48 + j * 18, i * 18 - 4));
             }
         }
 
+        //Inventory
+        for (int i = 0; i < PLAYER_INVENTORY_ROWS; i++) {
+            for (int j = 0; j < PLAYER_INVENTORY_COLUMNS; j++) {
+                this.addSlotToContainer(new Slot(entityPlayer.inventory, j + i * 9 + 9, 48 + j * 18, 106 + i * 18));
+            }
+        }
         for (int i = 0; i < PLAYER_INVENTORY_COLUMNS; i++) {
-            addSlotToContainer(new Slot(inventoryPlayer, i, 48 + i * 18, 164));
+            this.addSlotToContainer(new Slot(entityPlayer.inventory, i, 48 + i * 18, 164));
         }
     }
 

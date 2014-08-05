@@ -1,6 +1,7 @@
 package be.ghost606.trademc.client.gui;
 
 import be.ghost606.trademc.inventory.ContainerTrade;
+import be.ghost606.trademc.inventory.InventoryTrade;
 import be.ghost606.trademc.reference.Textures;
 import be.ghost606.trademc.utility.LogHelper;
 import cpw.mods.fml.client.config.GuiConfig;
@@ -9,6 +10,7 @@ import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.client.gui.inventory.GuiContainer;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.InventoryPlayer;
 import org.lwjgl.opengl.GL11;
 
@@ -24,11 +26,8 @@ public class GuiTrade extends GuiContainer {
     protected int guiLeft;
     protected int guiTop;
 
-    private InventoryPlayer inventoryPlayer;
-
-    public GuiTrade(InventoryPlayer inventoryPlayer) {
-        super(new ContainerTrade(inventoryPlayer));
-        this.inventoryPlayer = inventoryPlayer;
+    public GuiTrade(EntityPlayer entityPlayer, InventoryTrade inventoryTrade) {
+        super(new ContainerTrade(entityPlayer, inventoryTrade));
     }
 
     @Override
