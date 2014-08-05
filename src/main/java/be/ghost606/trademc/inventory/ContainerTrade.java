@@ -18,7 +18,6 @@ public class ContainerTrade extends Container {
     private static final int PLAYER_INVENTORY_COLUMNS = 9;
 
     public ContainerTrade(EntityPlayer entityPlayer, InventoryTrade inventoryTrade) {
-
         //Inventory Trade
         for (int i = 0; i < TRADE_INVENTORY_ROWS; i++) {
             for (int j = 0; j < TRADE_INVENTORY_COLUMNS; j++) {
@@ -27,12 +26,12 @@ public class ContainerTrade extends Container {
         }
 
         //Inventory
-        for (int i = 0; i < PLAYER_INVENTORY_ROWS; i++) {
-            for (int j = 0; j < PLAYER_INVENTORY_COLUMNS; j++) {
+        for (int i = 0; i < PLAYER_INVENTORY_ROWS; ++i) {
+            for (int j = 0; j < PLAYER_INVENTORY_COLUMNS; ++j) {
                 this.addSlotToContainer(new Slot(entityPlayer.inventory, j + i * 9 + 9, 48 + j * 18, 106 + i * 18));
             }
         }
-        for (int i = 0; i < PLAYER_INVENTORY_COLUMNS; i++) {
+        for (int i = 0; i < PLAYER_INVENTORY_COLUMNS; ++i) {
             this.addSlotToContainer(new Slot(entityPlayer.inventory, i, 48 + i * 18, 164));
         }
     }

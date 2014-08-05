@@ -1,0 +1,89 @@
+---- Minecraft Crash Report ----
+// There are four lights!
+
+Time: 5/08/14 21:45
+Description: Ticking entity
+
+java.lang.ArrayIndexOutOfBoundsException: 4
+	at net.minecraft.entity.player.InventoryPlayer.getStackInSlot(InventoryPlayer.java:648)
+	at net.minecraft.inventory.Slot.getStack(Slot.java:88)
+	at net.minecraft.inventory.Container.detectAndSendChanges(Container.java:91)
+	at net.minecraft.entity.player.EntityPlayerMP.onUpdate(EntityPlayerMP.java:251)
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:2253)
+	at net.minecraft.world.WorldServer.updateEntityWithOptionalForce(WorldServer.java:698)
+	at net.minecraft.world.World.updateEntity(World.java:2213)
+	at net.minecraft.world.World.updateEntities(World.java:2063)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:529)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:713)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:624)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:118)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:495)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:762)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.minecraft.entity.player.InventoryPlayer.getStackInSlot(InventoryPlayer.java:648)
+	at net.minecraft.inventory.Slot.getStack(Slot.java:88)
+	at net.minecraft.inventory.Container.detectAndSendChanges(Container.java:91)
+	at net.minecraft.entity.player.EntityPlayerMP.onUpdate(EntityPlayerMP.java:251)
+	at net.minecraft.world.World.updateEntityWithOptionalForce(World.java:2253)
+	at net.minecraft.world.WorldServer.updateEntityWithOptionalForce(WorldServer.java:698)
+	at net.minecraft.world.World.updateEntity(World.java:2213)
+
+-- Entity being ticked --
+Details:
+	Entity Type: null (net.minecraft.entity.player.EntityPlayerMP)
+	Entity ID: 231
+	Entity Name: ForgeDevName
+	Entity's Exact location: 913,87, 4,00, 1825,01
+	Entity's Block location: World: (913,4,1825), Chunk: (at 1,0,1 in 57,114; contains blocks 912,0,1824 to 927,255,1839), Region: (1,3; contains chunks 32,96 to 63,127, blocks 512,0,1536 to 1023,255,2047)
+	Entity's Momentum: 0,00, -0,08, 0,00
+Stacktrace:
+	at net.minecraft.world.World.updateEntities(World.java:2063)
+	at net.minecraft.world.WorldServer.updateEntities(WorldServer.java:529)
+
+-- Affected level --
+Details:
+	Level name: New Worldsdsd
+	All players: 1 total; [EntityPlayerMP['ForgeDevName'/231, l='New Worldsdsd', x=913,87, y=4,00, z=1825,01]]
+	Chunk stats: ServerChunkCache: 682 Drop: 0
+	Level seed: 2541153633612536832
+	Level generator: ID 01 - flat, ver 0. Features enabled: true
+	Level generator options: 
+	Level spawn location: World: (903,4,1818), Chunk: (at 7,0,10 in 56,113; contains blocks 896,0,1808 to 911,255,1823), Region: (1,3; contains chunks 32,96 to 63,127, blocks 512,0,1536 to 1023,255,2047)
+	Level time: 862 game time, 862 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 164754 (now: false), thunder time: 145305 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:713)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:624)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:118)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:495)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:762)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 8.1 (amd64) version 6.3
+	Java Version: 1.7.0_60, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 742710168 bytes (708 MB) / 1037959168 bytes (989 MB) up to 1037959168 bytes (989 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.18.1180 Minecraft Forge 10.13.0.1180 4 mods loaded, 4 mods active
+	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	FML{7.10.18.1180} [Forge Mod Loader] (forgeSrc-1.7.10-10.13.0.1180.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	Forge{10.13.0.1180} [Minecraft Forge] (forgeSrc-1.7.10-10.13.0.1180.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	TradeMC{1.7.2-1.0} [TradeMC] (TradeMC) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Player Count: 1 / 8; [EntityPlayerMP['ForgeDevName'/231, l='New Worldsdsd', x=913,87, y=4,00, z=1825,01]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
