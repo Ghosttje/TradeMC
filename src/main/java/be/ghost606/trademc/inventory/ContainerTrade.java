@@ -21,23 +21,58 @@ public class ContainerTrade extends Container {
         //Inventory Trade
         for (int i = 0; i < TRADE_INVENTORY_ROWS; i++) {
             for (int j = 0; j < TRADE_INVENTORY_COLUMNS; j++) {
-                addSlotToContainer(new Slot(inventoryTrade, j + i * 9, 48 + j * 18, i * 18 - 4));
+                addSlotToContainer(new Slot(inventoryTrade, j + i * 9, 88 + j * 18, 18 + i * 18));
             }
         }
 
         //Inventory
         for (int i = 0; i < PLAYER_INVENTORY_ROWS; ++i) {
             for (int j = 0; j < PLAYER_INVENTORY_COLUMNS; ++j) {
-                this.addSlotToContainer(new Slot(entityPlayer.inventory, j + i * 9 + 9, 48 + j * 18, 106 + i * 18));
+                this.addSlotToContainer(new Slot(entityPlayer.inventory, j + i * 9 + 9, 88 + j * 18, 128 + i * 18));
             }
         }
         for (int i = 0; i < PLAYER_INVENTORY_COLUMNS; ++i) {
-            this.addSlotToContainer(new Slot(entityPlayer.inventory, i, 48 + i * 18, 164));
+            this.addSlotToContainer(new Slot(entityPlayer.inventory, i, 88 + i * 18, 186));
         }
     }
 
     @Override
     public boolean canInteractWith(EntityPlayer entityPlayer) {
         return true;
+    }
+
+    @Override
+    public ItemStack transferStackInSlot(EntityPlayer entityPlayer, int slotIndex) {
+        ItemStack itemstack = null;
+        Slot slot = (Slot)this.inventorySlots.get(slotIndex);
+
+        if (slot != null && slot.getHasStack())
+        {
+            ItemStack itemstack1 = slot.getStack();
+            itemstack = itemstack1.copy();
+
+            if (slotIndex < TRADE_INVENTORY_ROWS * 9)
+            {
+                if (!this.mergeItemStack(itemstack1, TRADE_INVENTORY_ROWS * 9, this.inventorySlots.size(), true))
+                {
+                    return null;
+                }
+            }
+            else if (!this.mergeItemStack(itemstack1, 0, TRADE_INVENTORY_ROWS * 9, false))
+            {
+                return null;
+            }
+
+            if (itemstack1.stackSize == 0)
+            {
+                slot.putStack((ItemStack)null);
+            }
+            else
+            {
+                slot.onSlotChanged();
+            }
+        }
+
+        return itemstack;
     }
 }

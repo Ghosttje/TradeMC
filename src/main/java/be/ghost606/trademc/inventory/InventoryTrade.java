@@ -24,47 +24,38 @@ public class InventoryTrade implements IInventory {
     }
 
     @Override
-    public ItemStack getStackInSlot(int index) {
-        return index >= this.getSizeInventory() ? null : this.stackList[index];
+    public ItemStack getStackInSlot(int slotIndex) {
+        return stackList[slotIndex];
     }
 
     @Override
-    public ItemStack decrStackSize(int indexSource, int indexTarget) {
-        LogHelper.info(indexSource + ", " + indexTarget);
-        if (this.stackList[indexSource] != null)
-        {
+    public ItemStack decrStackSize(int slotIndex, int decrementAmount) {
+        if (this.stackList[slotIndex] != null) {
             ItemStack itemstack;
 
-            if (this.stackList[indexSource].stackSize <= indexTarget)
-            {
-                itemstack = this.stackList[indexSource];
-                this.stackList[indexSource] = null;
+            if (this.stackList[slotIndex].stackSize <= decrementAmount) {
+                itemstack = this.stackList[slotIndex];
+                this.stackList[slotIndex] = null;
                 return itemstack;
-            }
-            else
-            {
-                itemstack = this.stackList[indexSource].splitStack(indexTarget);
+            } else {
+                itemstack = this.stackList[slotIndex].splitStack(decrementAmount);
 
-                if (this.stackList[indexSource].stackSize == 0)
-                {
-                    this.stackList[indexSource] = null;
+                if (this.stackList[slotIndex].stackSize == 0) {
+                    this.stackList[slotIndex] = null;
                 }
                 return itemstack;
             }
-        }
-        else
-        {
+        } else {
             return null;
         }
     }
 
     @Override
-    public ItemStack getStackInSlotOnClosing(int index) {
-        LogHelper.info(index + "Closing");
-        if (this.stackList[index] != null)
+    public ItemStack getStackInSlotOnClosing(int slotIndex) {
+        if (this.stackList[slotIndex] != null)
         {
-            ItemStack itemstack = this.stackList[index];
-            this.stackList[index] = null;
+            ItemStack itemstack = this.stackList[slotIndex];
+            this.stackList[slotIndex] = null;
             return itemstack;
         }
         else
@@ -74,9 +65,8 @@ public class InventoryTrade implements IInventory {
     }
 
     @Override
-    public void setInventorySlotContents(int index, ItemStack itemStack) {
-        LogHelper.info(index + "set");
-        this.stackList[index] = itemStack;
+    public void setInventorySlotContents(int slotIndex, ItemStack itemStack) {
+        this.stackList[slotIndex] = itemStack;
     }
 
     @Override
@@ -100,7 +90,7 @@ public class InventoryTrade implements IInventory {
     }
 
     @Override
-    public boolean isUseableByPlayer(EntityPlayer p_70300_1_) {
+    public boolean isUseableByPlayer(EntityPlayer entityPlayer) {
         return true;
     }
 
@@ -115,7 +105,7 @@ public class InventoryTrade implements IInventory {
     }
 
     @Override
-    public boolean isItemValidForSlot(int p_94041_1_, ItemStack p_94041_2_) {
+    public boolean isItemValidForSlot(int slotIndex, ItemStack itemStack) {
         return true;
     }
 }

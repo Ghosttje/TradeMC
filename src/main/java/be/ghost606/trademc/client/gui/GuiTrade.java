@@ -20,14 +20,11 @@ import org.lwjgl.opengl.GL11;
 @SideOnly(Side.CLIENT)
 public class GuiTrade extends GuiContainer {
 
-    protected int xSize = 256;
-    protected int ySize = 210;
-
-    protected int guiLeft;
-    protected int guiTop;
-
     public GuiTrade(EntityPlayer entityPlayer, InventoryTrade inventoryTrade) {
         super(new ContainerTrade(entityPlayer, inventoryTrade));
+
+        xSize = 256;
+        ySize = 210;
     }
 
     @Override
