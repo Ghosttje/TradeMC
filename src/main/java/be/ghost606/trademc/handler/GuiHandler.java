@@ -1,10 +1,9 @@
 package be.ghost606.trademc.handler;
 
-import be.ghost606.trademc.client.gui.GuiTrade;
-import be.ghost606.trademc.inventory.ContainerTrade;
+import be.ghost606.trademc.client.gui.GuiTradeProposal;
+import be.ghost606.trademc.inventory.ContainerTradeProposal;
 import be.ghost606.trademc.inventory.InventoryTrade;
 import be.ghost606.trademc.reference.GuiId;
-import be.ghost606.trademc.reference.Reference;
 import be.ghost606.trademc.utility.LogHelper;
 import cpw.mods.fml.common.network.IGuiHandler;
 import net.minecraft.entity.player.EntityPlayer;
@@ -19,7 +18,7 @@ public class GuiHandler implements IGuiHandler {
     public Object getServerGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
         if (id == GuiId.TRADE.ordinal()) {
             LogHelper.info("Gui server side!");
-            return new ContainerTrade(player, new InventoryTrade());
+            return new ContainerTradeProposal(player, new InventoryTrade());
         }
 
         return null;
@@ -29,7 +28,7 @@ public class GuiHandler implements IGuiHandler {
     public Object getClientGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
         if (id == GuiId.TRADE.ordinal()) {
             LogHelper.info("Gui client side!");
-            return new GuiTrade(player, new InventoryTrade());
+            return new GuiTradeProposal(player, new InventoryTrade());
         }
 
         return null;

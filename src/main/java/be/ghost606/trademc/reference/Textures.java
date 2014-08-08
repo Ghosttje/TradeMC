@@ -13,5 +13,7 @@ public class Textures {
     public static final String GUI_SHEET_LOCATION = "textures/gui/";
 
     //GUI
-    public static final ResourceLocation GUI_TRADE = ResourceLocationHelper.getResourceLocation(GUI_SHEET_LOCATION + "guitrade.png");
+    public static final ResourceLocation GUI_TRADE_PLAYER = ResourceLocationHelper.getResourceLocation(GUI_SHEET_LOCATION + "guitradeplayer.png");
+    public static final ResourceLocation GUI_TRADE_PROPOSAL = ResourceLocationHelper.getResourceLocation(GUI_SHEET_LOCATION + "guitradeproposal.png");
+    public static final ResourceLocation GUI_TRADE_ACCEPT = ResourceLocationHelper.getResourceLocation(GUI_SHEET_LOCATION + "guitradeaccept.png");
 }

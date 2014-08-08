@@ -10,14 +10,18 @@ import net.minecraft.item.ItemStack;
 /**
  * Created by Kevin on 16/07/2014.
  */
-public class ContainerTrade extends Container {
+public class ContainerTradeProposal extends Container {
+
+    private InventoryTrade inventoryTrade;
 
     private static final int TRADE_INVENTORY_ROWS = 3;
     private static final int TRADE_INVENTORY_COLUMNS = 9;
     private static final int PLAYER_INVENTORY_ROWS = 3;
     private static final int PLAYER_INVENTORY_COLUMNS = 9;
 
-    public ContainerTrade(EntityPlayer entityPlayer, InventoryTrade inventoryTrade) {
+    public ContainerTradeProposal(EntityPlayer entityPlayer, InventoryTrade inventoryTrade) {
+        this.inventoryTrade = inventoryTrade;
+
         //Inventory Trade
         for (int i = 0; i < TRADE_INVENTORY_ROWS; i++) {
             for (int j = 0; j < TRADE_INVENTORY_COLUMNS; j++) {
@@ -74,5 +78,22 @@ public class ContainerTrade extends Container {
         }
 
         return itemstack;
+    }
+
+    @Override
+    public void onContainerClosed(EntityPlayer entityPlayer) {
+        super.onContainerClosed(entityPlayer);
+
+        for (int i = 0; i < inventoryTrade.getSizeInventory(); ++i) {
+            Slot slot = (Slot) this.inventorySlots.get(i);
+
+            if (slot != null && slot.getHasStack()) {
+                ItemStack itemstack = slot.getStack();
+
+                if (!entityPlayer.inventory.addItemStackToInventory(itemstack)) {
+                    entityPlayer.dropPlayerItemWithRandomChoice(itemstack, false);
+                }
+            }
+        }
     }
 }

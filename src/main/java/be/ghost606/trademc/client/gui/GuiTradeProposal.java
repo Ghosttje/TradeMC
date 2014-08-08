@@ -1,30 +1,26 @@
 package be.ghost606.trademc.client.gui;
 
-import be.ghost606.trademc.inventory.ContainerTrade;
+import be.ghost606.trademc.inventory.ContainerTradeProposal;
 import be.ghost606.trademc.inventory.InventoryTrade;
 import be.ghost606.trademc.reference.Textures;
-import be.ghost606.trademc.utility.LogHelper;
-import cpw.mods.fml.client.config.GuiConfig;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.client.gui.inventory.GuiContainer;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.entity.player.InventoryPlayer;
 import org.lwjgl.opengl.GL11;
 
 /**
  * Created by Kevin on 14/07/2014.
  */
 @SideOnly(Side.CLIENT)
-public class GuiTrade extends GuiContainer {
+public class GuiTradeProposal extends GuiContainer {
 
-    public GuiTrade(EntityPlayer entityPlayer, InventoryTrade inventoryTrade) {
-        super(new ContainerTrade(entityPlayer, inventoryTrade));
+    public GuiTradeProposal(EntityPlayer entityPlayer, InventoryTrade inventoryTrade) {
+        super(new ContainerTradeProposal(entityPlayer, inventoryTrade));
 
-        xSize = 256;
-        ySize = 210;
+        this.xSize = 256;
+        this.ySize = 210;
     }
 
     @Override
@@ -39,7 +35,7 @@ public class GuiTrade extends GuiContainer {
     protected void drawGuiContainerBackgroundLayer(float p_146976_1_, int p_146976_2_, int p_146976_3_) {
         GL11.glColor4f(1, 1, 1, 1);
 
-        Minecraft.getMinecraft().renderEngine.bindTexture(Textures.GUI_TRADE);
+        Minecraft.getMinecraft().renderEngine.bindTexture(Textures.GUI_TRADE_PROPOSAL);
         drawTexturedModalRect(guiLeft, guiTop, 0, 0, xSize, ySize);
     }
 }
