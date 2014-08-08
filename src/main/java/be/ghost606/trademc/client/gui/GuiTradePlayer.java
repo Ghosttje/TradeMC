@@ -2,17 +2,28 @@ package be.ghost606.trademc.client.gui;
 
 import be.ghost606.trademc.inventory.ContainerTradePlayer;
 import be.ghost606.trademc.reference.Textures;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.Minecraft;
+import net.minecraft.client.gui.GuiButton;
 import net.minecraft.client.gui.inventory.GuiContainer;
+import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.inventory.Container;
 import org.lwjgl.opengl.GL11;
+
+import java.util.List;
 
 /**
  * Created by Kevin on 8/08/2014.
  */
+@SideOnly(Side.CLIENT)
 public class GuiTradePlayer extends GuiContainer {
 
-    public GuiTradePlayer() {
+    private List<GuiButton> buttons;
+    private List<EntityPlayerMP> players;
+
+    public GuiTradePlayer(List<EntityPlayerMP> players) {
         super(new ContainerTradePlayer());
 
         this.xSize = 160;
@@ -25,6 +36,10 @@ public class GuiTradePlayer extends GuiContainer {
 
         this.guiLeft = (this.width - this.xSize) / 2;
         this.guiTop = (this.height - this.ySize) / 2;
+
+        for (int i = 0; i < players.size(); i++) {
+
+        }
     }
 
     @Override

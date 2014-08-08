@@ -2,14 +2,16 @@ package be.ghost606.trademc.client.gui;
 
 import be.ghost606.trademc.inventory.ContainerTradeAccept;
 import be.ghost606.trademc.reference.Textures;
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.inventory.GuiContainer;
-import net.minecraft.inventory.Container;
 import org.lwjgl.opengl.GL11;
 
 /**
  * Created by Kevin on 8/08/2014.
  */
+@SideOnly(Side.CLIENT)
 public class GuiTradeAccept extends GuiContainer {
 
     public GuiTradeAccept() {
@@ -17,6 +19,14 @@ public class GuiTradeAccept extends GuiContainer {
 
         this.xSize = 255;
         this.ySize = 209;
+    }
+
+    @Override
+    public void initGui() {
+        super.initGui();
+
+        this.guiLeft = (this.width - this.xSize) / 2;
+        this.guiTop = (this.height - this.ySize) / 2;
     }
 
     @Override

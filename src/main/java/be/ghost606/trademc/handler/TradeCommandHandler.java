@@ -34,7 +34,7 @@ public class TradeCommandHandler extends CommandBase {
                 LogHelper.info(args[i]);
             }
 
-            entityPlayer.openGui(TradeMC.instance, GuiId.TRADE.ordinal(), Minecraft.getMinecraft().theWorld, 0, 0, 0);
+            entityPlayer.openGui(TradeMC.instance, GuiId.TRADE_PLAYER.ordinal(), Minecraft.getMinecraft().theWorld, 0, 0, 0);
         }
     }
 }

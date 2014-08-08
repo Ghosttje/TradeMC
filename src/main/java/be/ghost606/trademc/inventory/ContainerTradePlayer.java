@@ -8,8 +8,12 @@ import net.minecraft.inventory.Container;
  */
 public class ContainerTradePlayer extends Container {
 
+    public ContainerTradePlayer() {
+
+    }
+
     @Override
     public boolean canInteractWith(EntityPlayer entityPlayer) {
-        return false;
+        return true;
     }
 }
