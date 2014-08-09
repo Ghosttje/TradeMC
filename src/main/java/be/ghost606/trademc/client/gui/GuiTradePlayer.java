@@ -1,6 +1,8 @@
 package be.ghost606.trademc.client.gui;
 
+import be.ghost606.trademc.TradeMC;
 import be.ghost606.trademc.inventory.ContainerTradePlayer;
+import be.ghost606.trademc.proxy.CommonProxy;
 import be.ghost606.trademc.reference.Textures;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -12,6 +14,7 @@ import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.inventory.Container;
 import org.lwjgl.opengl.GL11;
 
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -19,13 +22,12 @@ import java.util.List;
  */
 @SideOnly(Side.CLIENT)
 public class GuiTradePlayer extends GuiContainer {
+    private List<String> players;
 
-    private List<GuiButton> buttons;
-    private List<EntityPlayerMP> players;
-
-    public GuiTradePlayer(List<EntityPlayerMP> players) {
+    public GuiTradePlayer() {
         super(new ContainerTradePlayer());
 
+        this.players = TradeMC.proxy.getUsernameList();
         this.xSize = 160;
         this.ySize = 227;
     }
@@ -37,8 +39,11 @@ public class GuiTradePlayer extends GuiContainer {
         this.guiLeft = (this.width - this.xSize) / 2;
         this.guiTop = (this.height - this.ySize) / 2;
 
-        for (int i = 0; i < players.size(); i++) {
+        int widthButton = 120;
+        int xButton = (this.width - widthButton - 17) / 2;
 
+        for (int i = 0; i < players.size(); i++) {
+            this.buttonList.add(new GuiButton(i, xButton, 23 + i * 25, widthButton, 20, players.get(i)));
         }
     }
 

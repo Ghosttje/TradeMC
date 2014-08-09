@@ -1,7 +1,7 @@
 package be.ghost606.trademc;
 
+import be.ghost606.trademc.handler.CommandHandler;
 import be.ghost606.trademc.handler.GuiHandler;
-import be.ghost606.trademc.handler.TradeCommandHandler;
 import be.ghost606.trademc.network.PacketHandler;
 import be.ghost606.trademc.reference.Reference;
 import be.ghost606.trademc.proxy.IProxy;
@@ -55,6 +55,6 @@ public class TradeMC {
     @Mod.EventHandler
     public void serverStarting(FMLServerStartingEvent event)
     {
-        event.registerServerCommand(new TradeCommandHandler());
+        event.registerServerCommand(new CommandHandler());
     }
 }

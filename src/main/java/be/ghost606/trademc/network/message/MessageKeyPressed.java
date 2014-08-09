@@ -51,7 +51,7 @@ public class MessageKeyPressed implements IMessage, IMessageHandler<MessageKeyPr
             if (message.keyPressed == Key.TRADE.ordinal())
             {
                 LogHelper.info("Starting GUI!");
-                entityPlayer.openGui(TradeMC.instance, GuiId.TRADE_PLAYER.ordinal(), Minecraft.getMinecraft().theWorld, 0, 0, 0);
+                entityPlayer.openGui(TradeMC.instance, GuiId.TRADE_PLAYER.ordinal(), entityPlayer.worldObj, 0, 0, 0);
             }
         }
 

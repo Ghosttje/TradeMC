@@ -12,7 +12,7 @@ import net.minecraft.entity.player.EntityPlayer;
 /**
  * Created by Kevin on 12/07/2014.
  */
-public class TradeCommandHandler extends CommandBase {
+public class CommandHandler extends CommandBase {
     @Override
     public String getCommandName() {
         return Reference.Commands.TRADE_COMMAND;
@@ -34,7 +34,7 @@ public class TradeCommandHandler extends CommandBase {
                 LogHelper.info(args[i]);
             }
 
-            entityPlayer.openGui(TradeMC.instance, GuiId.TRADE_PLAYER.ordinal(), Minecraft.getMinecraft().theWorld, 0, 0, 0);
+            entityPlayer.openGui(TradeMC.instance, GuiId.TRADE_PLAYER.ordinal(), entityPlayer.worldObj, 0, 0, 0);
         }
     }
 }

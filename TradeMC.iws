@@ -2,10 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d0003cdf-a3b3-4144-a566-24f016b64265" name="Default" comment="">
+      <change type="DELETED" beforePath="D:\Git\TradeMC\eclipse\crash-reports\crash-2014-07-16_14.22.02-server.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\Git\TradeMC\eclipse\crash-reports\crash-2014-07-16_15.46.39-server.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\Git\TradeMC\eclipse\crash-reports\crash-2014-07-16_16.13.40-server.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\Git\TradeMC\eclipse\crash-reports\crash-2014-07-17_17.43.12-server.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\Git\TradeMC\eclipse\crash-reports\crash-2014-07-19_21.43.18-server.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\Git\TradeMC\eclipse\crash-reports\crash-2014-07-19_21.54.10-server.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\Git\TradeMC\eclipse\crash-reports\crash-2014-07-19_21.54.50-server.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\Git\TradeMC\eclipse\crash-reports\crash-2014-07-19_21.55.22-server.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\Git\TradeMC\eclipse\crash-reports\crash-2014-07-19_22.07.42-server.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\Git\TradeMC\eclipse\crash-reports\crash-2014-07-19_23.32.21-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\Git\TradeMC\eclipse\crash-reports\crash-2014-07-19_23.43.40-server.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\Git\TradeMC\eclipse\crash-reports\crash-2014-07-19_23.54.07-server.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\Git\TradeMC\eclipse\crash-reports\crash-2014-07-19_23.57.27-server.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\Git\TradeMC\eclipse\crash-reports\crash-2014-08-03_17.13.10-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\Git\TradeMC\eclipse\crash-reports\crash-2014-08-05_21.45.06-server.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\Git\TradeMC\eclipse\crash-reports\crash-2014-08-06_00.03.45-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\Git\TradeMC\eclipse\crash-reports\crash-2014-08-06_14.50.50-client.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/TestWorld/playerdata/040a63f0-e153-3f49-84a8-b60ca564e69f.dat" afterPath="$PROJECT_DIR$/eclipse/saves/TestWorld/playerdata/040a63f0-e153-3f49-84a8-b60ca564e69f.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-08-08-1.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-08-08-1.log.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-08-08-2.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-08-08-2.log.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-08-08-3.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-08-08-3.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-08-08-4.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-08-08-4.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-08-08-5.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-08-08-5.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-08-08-6.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-08-08-6.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-08-08-7.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-08-08-7.log.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/TestWorld/level.dat" afterPath="$PROJECT_DIR$/eclipse/saves/TestWorld/level.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/TestWorld/level.dat_old" afterPath="$PROJECT_DIR$/eclipse/saves/TestWorld/level.dat_old" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/TestWorld/region/r.0.-1.mca" afterPath="$PROJECT_DIR$/eclipse/saves/TestWorld/region/r.0.-1.mca" />
@@ -14,15 +35,17 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/TestWorld/DIM1/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/TestWorld/DIM1/data/villages.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/TestWorld/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/TestWorld/data/villages.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/TestWorld/stats/040a63f0-e153-3f49-84a8-b60ca564e69f.json" afterPath="$PROJECT_DIR$/eclipse/saves/TestWorld/stats/040a63f0-e153-3f49-84a8-b60ca564e69f.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/inventory/ContainerTradeAccept.java" afterPath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/inventory/ContainerTradeAccept.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/inventory/ContainerTradePlayer.java" afterPath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/inventory/ContainerTradePlayer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/proxy/CommonProxy.java" afterPath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/proxy/CommonProxy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/configuration/GuiFactory.java" afterPath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/configuration/GuiFactory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/handler/GuiHandler.java" afterPath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/handler/GuiHandler.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/reference/GuiId.java" afterPath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/reference/GuiId.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/GuiTradeAccept.java" afterPath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/GuiTradeAccept.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/GuiTradePlayer.java" afterPath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/GuiTradePlayer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/proxy/IProxy.java" afterPath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/proxy/IProxy.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/network/message/MessageKeyPressed.java" afterPath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/network/message/MessageKeyPressed.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/handler/TradeCommandHandler.java" afterPath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/handler/TradeCommandHandler.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TradeMC.iws" afterPath="$PROJECT_DIR$/TradeMC.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/TradeMC.java" afterPath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/TradeMC.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/eula.txt" afterPath="$PROJECT_DIR$/eclipse/eula.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/server.properties" afterPath="$PROJECT_DIR$/eclipse/server.properties" />
+      <change type="MOVED" beforePath="D:\Git\TradeMC\src\main\java\be\ghost606\trademc\handler\TradeCommandHandler.java" afterPath="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/handler/CommandHandler.java" />
     </list>
     <ignored path="TradeMC.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,8 +95,8 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties converted="true" />
     <breakpoint_rules converted="true" />
+    <ui_properties converted="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -84,48 +107,18 @@
       <file leaf-file-name="GuiTradePlayer.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/GuiTradePlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.74561405" vertical-offset="51" max-vertical-offset="782">
-              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7740303" vertical-offset="0" max-vertical-offset="816">
+              <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GuiTradeProposal.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/GuiTradeProposal.java">
+      <file leaf-file-name="CommonProxy.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/proxy/CommonProxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-              <caret line="37" column="85" selection-start-line="37" selection-start-column="67" selection-end-line="37" selection-end-column="85" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContainerTradeAccept.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/inventory/ContainerTradeAccept.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContainerTradePlayer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/inventory/ContainerTradePlayer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-              <caret line="16" column="19" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContainerTradeProposal.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/inventory/ContainerTradeProposal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="161" max-vertical-offset="1666">
-              <caret line="44" column="19" selection-start-line="44" selection-start-column="15" selection-end-line="44" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+              <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -134,48 +127,8 @@
       <file leaf-file-name="GuiHandler.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/handler/GuiHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
-              <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TradeCommandHandler.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/handler/TradeCommandHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="595">
-              <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Textures.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/reference/Textures.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-              <caret line="17" column="139" selection-start-line="17" selection-start-column="139" selection-end-line="17" selection-end-column="139" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageKeyPressed.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/network/message/MessageKeyPressed.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="155" max-vertical-offset="901">
-              <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GuiTradeAccept.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/GuiTradeAccept.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
-              <caret line="35" column="83" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="83" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="731">
+              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -736,7 +689,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/ModGuiConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/GuiFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/utility/LogHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/handler/KeyHandling.java" />
@@ -747,7 +699,6 @@
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/keyboard/KeyHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/keyboard/KeyBindings.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/reference/CommandReference.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/configuration/GuiFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/configuration/GuiTradeMCContainer.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/utility/ResourceLocationHelper.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/configuration/GuiTradeMCScreen.java" />
@@ -766,13 +717,9 @@
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/configuration/Configuration.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/configuration/ConfigurationHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/handler/ConfigurationHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/proxy/IProxy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/proxy/ClientProxy.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/proxy/CommonProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/proxy/ServerProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/handler/KeyInputEventHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/network/PacketHandler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/TradeMC.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/GuiTrade.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/inventory/InventoryTrade.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/inventory/ContainerTrade.java" />
@@ -784,8 +731,14 @@
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/inventory/ContainerTradePlayer.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/inventory/ContainerTradeAccept.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/handler/TradeCommandHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/configuration/GuiFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/network/message/MessageKeyPressed.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/TradeMC.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/handler/CommandHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/proxy/IProxy.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/proxy/ClientProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/handler/GuiHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/proxy/CommonProxy.java" />
         <option value="$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/GuiTradePlayer.java" />
       </list>
     </option>
@@ -849,6 +802,20 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TradeMC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TradeMC" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Default">
           <PATH>
@@ -1277,20 +1244,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TradeMC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TradeMC" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1365,6 +1318,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -1390,19 +1356,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1466,7 +1419,7 @@
       <option name="MAIN_CLASS_NAME" value="GradleStart" />
       <option name="VM_PARAMETERS" value="-Xincgc -Xmx1024M -Xms1024M -Djava.library.path=&quot;$PROJECT_DIR$/../TradeMC\build\natives&quot; -Dfml.ignoreInvalidMinecraftCertificates=true" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../TradeMC\eclipse" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/eclipse" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -1483,7 +1436,7 @@
       <option name="MAIN_CLASS_NAME" value="GradleStartServer" />
       <option name="VM_PARAMETERS" value="-Xincgc -Dfml.ignoreInvalidMinecraftCertificates=true" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../TradeMC\eclipse" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/eclipse" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
@@ -1550,7 +1503,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32560706" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32467532" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1558,13 +1511,13 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24946696" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32792208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32792208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1581,16 +1534,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32683983" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32900432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32900432" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1618,8 +1571,14 @@
           <line>61</line>
           <properties />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/configuration/GuiFactory.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1627,13 +1586,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/settings/KeyBindings.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/cpw/mods/fml/client/config/GuiSlider.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2434" max-vertical-offset="3434">
@@ -1732,41 +1684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/configuration/ModGuiConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-          <caret line="14" column="100" selection-start-line="14" selection-start-column="100" selection-end-line="14" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/proxy/IProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/proxy/ServerProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/proxy/CommonProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/configuration/GuiFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44482365" vertical-offset="0" max-vertical-offset="879">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/handler/ConfigurationHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5496536" vertical-offset="0" max-vertical-offset="866">
@@ -1831,13 +1748,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/network/PacketHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraft/inventory/Container.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="9231" max-vertical-offset="12614">
@@ -1873,7 +1783,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.05615942" vertical-offset="6378" max-vertical-offset="13736">
           <caret line="395" column="42" selection-start-line="395" selection-start-column="19" selection-end-line="395" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1903,28 +1812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.20067453" vertical-offset="0" max-vertical-offset="593">
           <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/TradeMC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
-          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/proxy/ClientProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <caret line="18" column="79" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
-          <folding>
-            <element signature="e#736#737#0" expanded="false" />
-            <element signature="e#807#808#0" expanded="false" />
-            <element signature="e#879#880#0" expanded="false" />
-            <element signature="e#938#939#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1960,50 +1847,137 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/handler/TradeCommandHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="595">
-          <caret line="36" column="69" selection-start-line="36" selection-start-column="69" selection-end-line="36" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/network/message/MessageKeyPressed.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="155" max-vertical-offset="901">
-          <caret line="49" column="9" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/GuiTradeAccept.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+        <state vertical-scroll-proportion="0.7133221" vertical-offset="172" max-vertical-offset="765">
           <caret line="35" column="83" selection-start-line="35" selection-start-column="67" selection-end-line="35" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/handler/GuiHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
-          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/GuiTradeProposal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+        <state vertical-scroll-proportion="0.7133221" vertical-offset="206" max-vertical-offset="799">
           <caret line="37" column="85" selection-start-line="37" selection-start-column="67" selection-end-line="37" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/net/minecraft/client/gui/GuiButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6413793" vertical-offset="172" max-vertical-offset="2380">
+          <caret line="39" column="118" selection-start-line="39" selection-start-column="108" selection-end-line="39" selection-end-column="118" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/configuration/GuiFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40134907" vertical-offset="0" max-vertical-offset="595">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="e#519#520#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#645#646#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/configuration/ModGuiConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2866779" vertical-offset="0" max-vertical-offset="593">
+          <caret line="14" column="100" selection-start-line="14" selection-start-column="100" selection-end-line="14" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/network/PacketHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <caret line="18" column="99" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/network/message/MessageKeyPressed.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="901">
+          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/handler/CommandHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2" max-vertical-offset="595">
+          <caret line="28" column="68" selection-start-line="28" selection-start-column="68" selection-end-line="28" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/TradeMC.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="308" max-vertical-offset="901">
+          <caret line="57" column="56" selection-start-line="57" selection-start-column="37" selection-end-line="57" selection-end-column="56" />
+          <folding>
+            <element signature="e#1853#1854#0" expanded="true" />
+            <element signature="e#1918#1919#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/proxy/IProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/proxy/ServerProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17200674" vertical-offset="0" max-vertical-offset="593">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/proxy/ClientProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22934233" vertical-offset="0" max-vertical-offset="593">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/handler/GuiHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="731">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/proxy/CommonProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
+          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/be/ghost606/trademc/client/gui/GuiTradePlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74561405" vertical-offset="51" max-vertical-offset="782">
-          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.7740303" vertical-offset="0" max-vertical-offset="816">
+          <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
           <folding />
         </state>
       </provider>

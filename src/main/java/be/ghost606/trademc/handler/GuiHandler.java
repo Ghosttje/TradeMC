@@ -40,7 +40,7 @@ public class GuiHandler implements IGuiHandler {
     public Object getClientGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
         if (id == GuiId.TRADE_PLAYER.ordinal()) {
             LogHelper.info("Client run");
-            return new GuiTradePlayer(MinecraftServer.getServer().getConfigurationManager().playerEntityList);
+            return new GuiTradePlayer();
         } else if(id == GuiId.TRADE_PROPOSAL.ordinal()) {
             return new GuiTradeProposal(player, new InventoryTrade());
         } else if(id == GuiId.TRADE_ACCEPT.ordinal()) {
